@@ -19,7 +19,15 @@ def assembled_aoh
 end
 
 def literal_aoh
-  [DON_G.sort, JOELLE_VD.sort, PAT_M.sort, KATE_G.sort, BRUCE_G.sort]
+  [
+    {:name=> "Don Gately", :occupation=> "Live-in Staff"},
+    {:name=> "Joelle van Dyne", :occupation=> "Radio Personality"},
+    {:name=> "Pat Monteseian", :occupation=> "Staff"},
+    {:name=> "Kate Gompert", :occupation=> "None"},
+    {:name=> "Bruce Green", :occupation=> "Fan of Mildred"}
+
+  ]
+
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
